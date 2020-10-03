@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+
+	<head>
+		<title>GIS Home Page</title>
+		<meta charset = "UTF-8">
+		<link rel = "StyleSheet" href = "styles.css" title = "Main Style">
+		<meta name = "KeyWords" content = "GIS, Saudi Arabia, KSA, Map">
+		<meta name = "Description" content = "This Website Discusses the GIS Technology and KSA Map">
+	</head>
+
+	<body>
+		<header id = "mainHeader">
+			<!--This is the Main Webpage of the Site-->
+			<div id = "headImage">
+				<img src = "images/gisLogo.png" height = "100px" alt = "logo">
+			</div>
+
+			<div id = "logIn">
+				<img src = "images/logIn_logo.png" width = "60px" height = "60px" alt = "logIn logo">
+				<br>
+				<button id = "signIn" onClick = "window.location.href = 'signIn.html';">Sign In</button>
+				<button id = "signUp" onClick = "window.location.href = 'signUp.html';">Sign Up</button>
+			</div>
+
+			<div id = "links">
+				<!--Bullet Points for the Links-->
+				<ul>
+					<a href = "maps.html"><li>MAPS</li></a>
+					<a href = "resources.html"><li>RESOURCES</li></a>
+					<a href = "events.html"><li>EVENTS</li></a>
+					<a href = "productions.html"><li>PRODUCTS</li></a>
+				</ul>
+			</div>
+		</header>
+
+		<div id = "mainImage">
+			<!--Main Big Image-->
+			<img src = "images/saudiMap.png" width = "100%" useMap = "#saudiMap" alt = "map">
+
+			<!--Map for Selectable Areas-->
+			<map name = "saudiMap">
+				<area shape = "rect" href = "qatif.html" coords = "670, 280, 770, 380" alt = "qatif">
+				<area shape = "rect" href = "riyadh.html" coords = "520, 360, 620, 460" alt = "riyadh">
+				<area shape = "rect" href = "medina.html" coords = "200, 370, 300, 470" alt = "medina">
+			</map>
+			
+			<p>Saudi Arabia Information: saudi Arabia is located in the Middle East.
+			Saudi Arabia is bordered by the Red Sea to the west.
+			Ymen and Oman to the south.
+			the Persian Gulf, Qatar and United Arab Emirates to the east,
+			and Kuwait, Iraq, and Jordan to the north.</p>
+		</div><hr>
+
+		<div id = "articles">
+			<!--Article Sections With Ideantical Styling-->
+			<div id = "article">
+				<div id = "articleImage">
+					<img src = "images/googleEarth.jpg" width = "120px" alt = "Google Earth">
+				</div>
+
+				<h4 id = "articleTitle">Explore Saudi Arabia Using Google Earth: </h4>
+
+				<p id = "articleParagraph">Google Earth is a free program from Google that allows you 
+				to explore satellite images showing the cities and landscapes 
+				of Saudi Arabia and all of Asia in fantastic detail. 
+				It works on your desktop computer, tablet, or moblie phone. 
+				The images in many areas are detailed enough that you can see 
+				houses, vehicles and even people on a city street. Google Earth 
+				is free and easy-to-use.</p>
+			</div><hr>
+
+			<div id = "article">
+				<div id = "articleImage">
+					<img src = "images/worldMap.jpg" width = "120px" alt = "World Map">
+				</div>
+
+				<h4 id = "articleTitle">Saudi Arabia on a World Wall Map: </h4>
+
+				<p id = "articleParagraph">Saudi Arabia is one of nearly 200 countries 
+				illustrated on our Blue Ocean Laminated Map of the World. This map 
+				shows a combination of political and physical features. it includes 
+				country boundaries, major cities, major mountains in shaded relief, 
+				ocean depth in blue color gradient, along with many other features. 
+				This is a great map for students, schools, offices and anywhere that 
+				a nice map of the world is needed for education, display or decor.</p>
+			</div><hr>
+
+			<div id = "article">
+				<div id = "articleImage">
+					<img src = "images/asiaMap.gif" width = "120px" alt = "Asia Map">
+				</div>
+
+				<h4 id = "articleTitle">Saudi Arabia On a Large Wall Map of Asia: </h4>
+
+				<p id = "articleParagraph">If you are interested in Saudi Arabia and the 
+				geography of Asia our large laminated map of Asia might be just what you 
+				need. It is a large political map of Asia that also shows many of the 
+				continent's physical features in color of shaded relief. Major lakes, 
+				rivers, cities, roads, country boundaries, coastlines and surrounding 
+				islands are all shown on the map.</p>
+			</div><hr>
+		</div>
+	</body>
+
+</html>
