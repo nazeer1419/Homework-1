@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Sign In</title>
+		<meta charset = "UTF-8">
+		<link rel = "StyleSheet" href = "styles.css" title = "Main Style">
+		<meta name = "KeyWords" content = "Sign In">
+		<meta name = "Description" content = "This is for signing in the website">
+	</head>
+	
+	<body>
+		<header id = "mainHeader">
+			<div id = "headImage">
+				<img src = "images/gisLogo.png" width = "" height = "100px" alt = "logo">
+			</div>
+
+			<div id = "logIn">
+				<img src = "images/logIn_logo.png" width = "60px" height = "60px" alt = "logIn logo">
+				<br>
+				<button id = "signIn" onClick = "window.location.href = 'pages/signIn.html';">Sign In</button>
+				<button id = "signUp" onClick = "window.location.href = 'pages/signUp.html';">Sign Up</button>
+			</div>
+
+			<div id = "links">
+				<!--Bullet Points for the Links-->
+				<ul>
+					<a href = "pages/maps.html"><li>MAPS</li></a>
+					<a href = "pages/resources.html"><li>RESOURCES</li></a>
+					<a href = "pages/events.html"><li>EVENTS</li></a>
+					<a href = "pages/productions.html"><li>PRODUCTS</li></a>
+				</ul>
+			</div>
+		</header>
+
+		<!--form is used to help with the button action-->
+		<form id = "signInForm" action = "index.html">
+			<label>User Name</label>
+			<input type = "text" placeholder = "Enter Your Username">
+			<br>
+			<label>Password</label>
+			<input type = "password" placeHolder = "Enter Your Password">
+			<br>
+			<input type = "Submit">
+		</form>
+	</body>
+</html>
